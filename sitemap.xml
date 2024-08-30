@@ -3,121 +3,121 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
     
     <url>
-        <loc>https://ruofan-wu.github.io/</loc>
+        <loc>http://localhost:1313/</loc>
         <lastmod>2018-05-09T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>https://ruofan-wu.github.io/post/</loc>
+        <loc>http://localhost:1313/post/</loc>
         <lastmod>2018-05-09T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>https://ruofan-wu.github.io/tags/actor/</loc>
+        <loc>http://localhost:1313/tags/actor/</loc>
         <lastmod>2018-05-09T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>https://ruofan-wu.github.io/categories/</loc>
+        <loc>http://localhost:1313/categories/</loc>
         <lastmod>2018-05-09T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>https://ruofan-wu.github.io/tags/interest/</loc>
+        <loc>http://localhost:1313/tags/interest/</loc>
         <lastmod>2018-05-09T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>https://ruofan-wu.github.io/categories/metaphorsum/</loc>
+        <loc>http://localhost:1313/categories/metaphorsum/</loc>
         <lastmod>2018-05-09T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>https://ruofan-wu.github.io/categories/post/</loc>
+        <loc>http://localhost:1313/categories/post/</loc>
         <lastmod>2018-05-09T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>https://ruofan-wu.github.io/tags/snowflakes/</loc>
+        <loc>http://localhost:1313/tags/snowflakes/</loc>
         <lastmod>2018-05-09T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>https://ruofan-wu.github.io/tags/</loc>
+        <loc>http://localhost:1313/tags/</loc>
         <lastmod>2018-05-09T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>https://ruofan-wu.github.io/post/the-actor-is-a-gander/</loc>
+        <loc>http://localhost:1313/post/the-actor-is-a-gander/</loc>
         <lastmod>2018-05-09T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>https://ruofan-wu.github.io/tags/visitor/</loc>
+        <loc>http://localhost:1313/tags/visitor/</loc>
         <lastmod>2018-05-09T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>https://ruofan-wu.github.io/tags/beach/</loc>
+        <loc>http://localhost:1313/tags/beach/</loc>
         <lastmod>2018-03-09T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>https://ruofan-wu.github.io/tags/math/</loc>
+        <loc>http://localhost:1313/tags/math/</loc>
         <lastmod>2018-03-09T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>https://ruofan-wu.github.io/tags/nothing/</loc>
+        <loc>http://localhost:1313/tags/nothing/</loc>
         <lastmod>2018-03-09T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>https://ruofan-wu.github.io/tags/riddles/</loc>
+        <loc>http://localhost:1313/tags/riddles/</loc>
         <lastmod>2018-03-09T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>https://ruofan-wu.github.io/post/the-beach-is-a-push/</loc>
+        <loc>http://localhost:1313/post/the-beach-is-a-push/</loc>
         <lastmod>2018-03-09T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>https://ruofan-wu.github.io/tags/verbatim/</loc>
+        <loc>http://localhost:1313/tags/verbatim/</loc>
         <lastmod>2018-03-09T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>https://ruofan-wu.github.io/tags/bookcase/</loc>
+        <loc>http://localhost:1313/tags/bookcase/</loc>
         <lastmod>2018-02-09T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>https://ruofan-wu.github.io/tags/code/</loc>
+        <loc>http://localhost:1313/tags/code/</loc>
         <lastmod>2018-02-09T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>https://ruofan-wu.github.io/post/extending-this-logic/</loc>
+        <loc>http://localhost:1313/post/extending-this-logic/</loc>
         <lastmod>2018-02-09T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>https://ruofan-wu.github.io/tags/lamb/</loc>
+        <loc>http://localhost:1313/tags/lamb/</loc>
         <lastmod>2018-02-09T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>https://ruofan-wu.github.io/tags/shell/</loc>
+        <loc>http://localhost:1313/tags/shell/</loc>
         <lastmod>2018-02-09T00:00:00+00:00</lastmod>
     </url>
     
     <url>
-        <loc>https://ruofan-wu.github.io/publications/</loc>
+        <loc>http://localhost:1313/publications/</loc>
     </url>
     
     <url>
-        <loc>https://ruofan-wu.github.io/about/</loc>
+        <loc>http://localhost:1313/about/</loc>
     </url>
     
 </urlset>
