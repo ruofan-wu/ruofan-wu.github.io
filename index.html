@@ -1,1099 +1,139 @@
-<!DOCTYPE html>
-<html lang="en-us">
-  <head>
-	<meta name="generator" content="Hugo 0.127.0">
-    <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1"><title>About: Ruofan Wu</title>
-<meta property="og:title" content="About: Ruofan Wu">
-<meta property="og:type" content="website">
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ruofan Wu | MLSys researcher</title>
+  <meta name="author" content="Ruofan Wu">
+  <meta name="description" content="Ruofan Wu is a PhD student at the University of Michigan working on machine learning compilers, scalable ML systems, and energy-efficient AI.">
+  <meta name="keywords" content="Ruofan Wu, machine learning systems, ML compilers, energy-efficient AI, University of Michigan">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Ruofan Wu | MLSys researcher">
+  <meta property="og:description" content="Research in machine learning compilers, scalable ML systems, and energy-efficient AI.">
+  <meta property="og:image" content="https://ruofan-wu.github.io/img/DSCF3027%202.jpg">
+  <meta property="og:url" content="https://ruofan-wu.github.io/">
+  <meta property="og:type" content="profile">
+  <meta name="twitter:card" content="summary">
+  <link rel="stylesheet" href="/css/academic.css">
+  <link href="/index.xml" type="application/atom+xml" rel="alternate" title="Ruofan Wu feed">
+  <script>
+    (function () {
+      try {
+        var saved = localStorage.getItem('theme');
+        var preferred = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        document.documentElement.setAttribute('data-theme', saved || preferred);
+      } catch (error) {}
+    }());
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Ruofan Wu",
+    "alternateName": "乌若凡",
+    "url": "https://ruofan-wu.github.io/",
+    "image": "https://ruofan-wu.github.io/img/DSCF3027%202.jpg",
+    "email": "mailto:ruofanw@umich.edu",
+    "jobTitle": "PhD Student",
+    "affiliation": { "@type": "CollegeOrUniversity", "name": "University of Michigan" },
+    "sameAs": [
+      "https://github.com/ruofan-wu",
+      "https://www.linkedin.com/in/ruofanwu-a07a55286/",
+      "https://scholar.google.com/citations?user=OvNSZeIAAAAJ"
+    ]
+  }
+  </script>
+</head>
+<body data-page="home">
+  <a class="skip-link" href="#main-content">Skip to main content</a>
 
+  <header class="site-header">
+    <nav class="site-nav page-width" aria-label="Main navigation">
+      <a class="site-name" href="/" aria-current="page">Ruofan Wu</a>
+      <div class="nav-links">
+        <a href="/" aria-current="page">Home</a>
+        <a href="/publications/">Publications</a>
+        <a href="/docs/RuofanWu_CV.pdf">CV</a>
+        <button class="theme-toggle" type="button" aria-label="Switch color theme" title="Switch color theme">
+          <span class="theme-icon" aria-hidden="true">◐</span>
+        </button>
+      </div>
+    </nav>
+  </header>
 
-<meta property="og:image" content="img/175133(1).jpg">
+  <main id="main-content" class="page-width homepage">
+    <section class="profile-section" aria-labelledby="profile-name">
+      <div class="profile-copy">
+        <!-- <p class="eyebrow">Machine Learning Systems</p> -->
+        <h1 id="profile-name">Ruofan Wu</h1>
+        <!-- <p class="role">PhD Student · University of Michigan</p> -->
+        <p> </p>
+        <p>
+          I am a third-year PhD candidate in CSE at the University of Michigan, advised by
+          <a href="https://www.mosharaf.com/">Prof. Mosharaf Chowdhury</a>. I received my bachelor's and master's
+          degrees from Renmin University of China, where I worked with
+          <a href="https://fengzhangcs.github.io/">Prof. Feng Zhang</a>.
+        </p>
+        <p>
+          My research focuses on energy-efficient AI systems and compilers. I aim to
+          reduce energy consumption while maximizing performance under power constraints. Because
+          energy efficiency and performance are tightly coupled, my work explores their joint optimization,
+          with a particular emphasis on GPU kernel scheduling.
+        </p>
+        <div class="profile-links" aria-label="Profile links">
+          <a href="mailto:ruofanw@umich.edu">Email</a><span aria-hidden="true">/</span>
+          <a href="https://scholar.google.com/citations?user=OvNSZeIAAAAJ">Google Scholar</a><span aria-hidden="true">/</span>
+          <a href="https://github.com/ruofan-wu">GitHub</a><span aria-hidden="true">/</span>
+          <a href="https://www.linkedin.com/in/ruofanwu-a07a55286/">LinkedIn</a><span aria-hidden="true">/</span>
+          <a href="/docs/RuofanWu_CV.pdf">CV</a>
+        </div>
+      </div>
+      <img class="profile-photo" src="/img/DSCF3027%202.jpg" alt="Portrait of Ruofan Wu at Yosemite National Park" width="176" height="176">
+    </section>
 
-<meta property="og:url" content="https://ruofan-wu.github.io/"><meta property="og:description" content="The homepage of Ruofan Wu.">
-<meta name="Description" property="description" content="The homepage of Ruofan Wu.">
-
-
-
-
-
-
-<link rel="stylesheet" href="https://ruofan-wu.github.io/css/style.min.css">
-
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/svg+xml" href="/favicon.svg">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
-<link href="https://ruofan-wu.github.io/index.xml" type="application/atom+xml" rel="alternate" title="Sitewide Atom feed" />
-<meta name="theme-color" content="#ffffff">
-
-
-<script>function updateMode(){localStorage.theme==="dark"||!("theme"in localStorage)&&window.matchMedia("(prefers-color-scheme: dark)").matches?document.documentElement.classList.add("dark"):document.documentElement.classList.remove("dark")}function toggleMode(){localStorage.theme==="dark"?localStorage.theme="light":localStorage.theme="dark",updateMode()}window.onload=updateMode();function toggleMenu(){let e=document.getElementById("navbar-default");e.classList.contains("hidden")?e.classList.remove("hidden"):e.classList.add("hidden")}</script>
-
-  </head>
-  <body>
-    <header class="md:px-0 px-2">
-        <nav >
-  <div class="container flex flex-wrap justify-between items-center mx-auto">
-    <div class="nav-main my-2.5">
-      <a href="https://ruofan-wu.github.io/" class="nav-title py-2.5 text-2xl
-               text-zinc-600 dark:text-zinc-300 hover:border-b-0">About: Ruofan Wu</a>
-    </div>
-    <button type="button"
-            onclick="toggleMenu()"
-            class="inline-flex items-center p-2 ml-3
-                  text-sm text-gray-500
-                  rounded-lg md:hidden hover:bg-gray-100
-                  focus:outline-none focus:ring-2
-                  focus:ring-gray-200 dark:text-gray-400
-                  dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-            aria-controls="navbar-default"
-            aria-expanded="false">
-        <span class="sr-only">Open main menu</span>
-        <svg class="w-6 h-6" aria-hidden="true" fill="currentColor"
-             viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-          <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1
-                           0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0
-                           01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0
-                           01-1-1z" clip-rule="evenodd"></path>
-        </svg>
-    </button>
-    <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-      <ul class="grid md:grid-flow-col items-center justify-between text-lg
-                 my-2.5 grid-cols-1 pl-0 text-center">
-        
-        <li class="p-2.5 md:first:pl-0 md:border-none border-b dark:border-zinc-500 list-none">
-          <a class="text-zinc-600 dark:text-zinc-300
-                    hover:border-b-0" href="/publications/">Publications</a>
+    <section class="homepage-section" aria-labelledby="news-heading">
+      <div class="section-heading"><h2 id="news-heading">News</h2></div>
+      <ul class="news-list">
+        <li>
+          <time datetime="2026-07">Jul 2026</time>
+          <span>Presented <a href="https://www.usenix.org/conference/osdi26/presentation/wu-ruofan"><em>Kareus</em></a> at OSDI 2026!</span>
         </li>
-        
-        <li class="h-7 pl-2.5 pr-0 list-none">
-          <button type="button" onclick="toggleMode()" class="h-full"  aria-label="Toggle between dark and light mode">
-            <img class="h-7 w-7 max-h-full mb-1.5 p-1.5 hidden dark:inline"
-                 id="ligh-mode-button-img"
-                 alt="A sun icon for switching to light mode"
-                 src="https://ruofan-wu.github.io/img/light_mode.svg">
-            <img class="h-7 w-7 max-h-full mb-1.5 p-1.5 inline dark:hidden"
-                 id="dark-mode-button-img"
-                 alt="A moon icon for switching to dark mode"
-                 src="https://ruofan-wu.github.io/img/dark_mode.svg">
-          </button>
+        <li>
+          <time datetime="2025-12">Dec 2025</time>
+          <span>Presented at the NeurIPS 2025 tutorial on <a href="https://ml.energy/tutorials/neurips25/"><em>Energy and Power as First-Class ML Design Metrics</em></a>.</span>
         </li>
       </ul>
-    </div>
-  </div>
-</nav>
+    </section>
 
+    <section class="homepage-section" aria-labelledby="selected-heading">
+      <div class="section-heading">
+        <h2 id="selected-heading">Selected publications</h2>
+        <a class="section-link" href="/publications/">View all <span aria-hidden="true">→</span></a>
+      </div>
+      <ol id="selected-publications" class="publication-list" aria-live="polite"></ol>
+      <noscript><p>Please enable JavaScript to view the publication list, or visit my Google Scholar profile.</p></noscript>
+    </section>
 
-    </header>
-    <main class="content h-card container mt-2 m-auto
-                 leading-loose md:px-0 px-2 z-0"
-          role="main">
-    
-    <div class="head container grid sm:grid-cols-2 grid-cols-1
-            justify-around flex-wrap items-center"
-     itemscope itemtype="http://schema.org/Person">
-    <div class="picture p-8 max-w-[80%] mx-auto basis-20 grow shrink"
-         itemscope itemtype="http://schema.org/ImageObject">
-        <picture>
-            
-            <source srcset="img/175133%281%29.jpg"
-                    >
-            <img class="main-image u-photo mx-auto"
-            itemprop="contentUrl" alt="Profile picture"
-                 src="img/175133%281%29.jpg">
-        </picture>
-    </div>
-    <div class="mx-4 ml-8 basis-60 grow shrink-2 leading-snug text-base">
-        <a  class="u-url font-bold" rel="me" itemprop="url" href="https://ruofan-wu.github.io/">
-            <h1 class="text-black dark:text-zinc-300 p-name border-0"
-                itemprop="name">Ruofan Wu  乌若凡
-            </h1>
-        </a>
-        
-        <h2 itemprop="jobTitle" class="text-xl my-0 border-none">2nd year PhD @ Umich</h2>
-        
-        <!-- Social Media Icons -->
-        <div class="flex" style="margin-top: 2.0rem; gap: 2.0rem;">
-            <!-- LinkedIn -->
-            <a href="https://www.linkedin.com/in/ruofanwu-a07a55286/" 
-               target="_blank" 
-               rel="noopener noreferrer"
-               class="text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
-               aria-label="LinkedIn Profile">
-                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
-                </svg>
-            </a>
-            
-            <!-- GitHub -->
-            <a href="https://github.com/ruofan-wu" 
-               target="_blank" 
-               rel="noopener noreferrer"
-               class="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors"
-               aria-label="GitHub Profile">
-                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
-                </svg>
-            </a>
-            
-            <!-- Google Scholar -->
-            <a href="https://scholar.google.com/citations?user=OvNSZeIAAAAJ" 
-               target="_blank" 
-               rel="noopener noreferrer"
-               class="text-gray-600 dark:text-gray-400 hover:text-blue-500 dark:hover:text-blue-300 transition-colors"
-               aria-label="Google Scholar Profile">
-                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-24L0 9.5l4.838 3.94A8 8 0 0 1 12 9a8 8 0 0 1 7.162 4.44L24 9.5z"/>
-                </svg>
-            </a>
-        </div>
-            
-    </div>
-</div>
+    <section class="homepage-section" aria-labelledby="experience-heading">
+      <div class="section-heading"><h2 id="experience-heading">Experience</h2></div>
+      <ol class="experience-list">
+        <li><time>2026</time><div><strong>NVIDIA</strong><span>PhD Research Intern</span><small>Mentors: <a href="https://inciaf.github.io/">Ahmet Inci</a>, <a href="https://www.linkedin.com/in/bhargava-gopireddy/">Bhargava Gopireddy</a>, and <a href="https://deepakn94.github.io/">Deepak Narayanan</a></small></div></li>
+        <li><time>2023–2024</time><div><strong>Microsoft</strong><span>Research Intern · Bing</span><small>Mentor: Dr. <a href="https://jamesthez.github.io/">Zhen Zheng</a></small></div></li>
+        <li><time>2022–2023</time><div><strong>Alibaba Cloud</strong><span>Research Intern · Platform of Artificial Intelligence</span><small>Mentor: Dr. <a href="https://jamesthez.github.io/">Zhen Zheng</a></small></div></li>
+        <li><time>2021</time><div><strong>Microsoft Research Asia</strong><span>Research Intern · Systems Research Group</span><small>Mentors: <a href="https://www.microsoft.com/en-us/research/people/fanyang/">Dr. Fan Yang</a> and <a href="https://www.microsoft.com/en-us/research/people/jxue/">Dr. Jilong Xue</a></small></div></li>
+        <li><time>2019–2020</time><div><strong>North Carolina State University</strong><span>Remote Intern · PICTure Research Group</span><small>Advisor: <a href="https://research.csc.ncsu.edu/picture/xshen5/index.htm">Prof. Xipeng Shen</a></small></div></li>
+        <!-- <li><time>2019</time><div><strong>Dell EMC</strong><span>Intern</span></div></li> -->
+      </ol>
+    </section>
+  </main>
 
-    <!-- raw HTML omitted -->
-<p>I am a second year Ph.D. student at University of Michigan, advised by <a href="https://www.mosharaf.com/">Prof. Mosharaf Chowdhury</a>. I received my Bachelor&rsquo;s and Master&rsquo;s degree in computer science at Renmin University of China (RUC) under the supervision of <a href="https://fengzhangcs.github.io">Prof. Feng Zhang</a>. My research interests lie in machine learning compilers and scalable machine learning systems, with recent and upcoming work aiming to build energy-efficient execution stacks for large model training, particularly for generative AI workloads.</p>
-<!-- raw HTML omitted -->
-<p>Email: <a href="mailto:ruofanw@umich.edu">ruofanw@umich.edu</a></p>
-<!-- <h1 id="education">Education</h1>
-<ul>
-<li>2024 - Present: University of Michigan (Umich), Ph.D. student in Computer Science &amp; Engineering, Advisor: <a href="https://www.mosharaf.com/">Prof. Mosharaf Chowdhury</a></li>
-<li>2021 - 2024: Renmin University of China (RUC), M.E. in Computer Application Technology, Advisor: <a href="https://fengzhangcs.github.io">Prof. Feng Zhang</a></li>
-<li>2017 - 2021: Renmin University of China (RUC), B.E. in Data Science and Big Data Technology</li>
-</ul> -->
+  <footer class="site-footer page-width">
+    <p>© <span id="copyright-year">2026</span> Ruofan Wu</p>
+    <p>ML systems · compilers · energy-efficient AI</p>
+  </footer>
 
-<h1 id="experience">Experience</h1>
-<ul>
-<li>2023 - 2024: Microsoft, <em><del>DeepSpeed</del> Bing</em>, Research Intern,  Mentor: Dr. <a href="https://jamesthez.github.io/">Zhen Zheng</a></li>
-<li>2022 - 2023: Alibaba Cloud, <em>Platform of Artificial Intelligence (PAI)</em>, Research Intern, Mentor: Dr. <a href="https://jamesthez.github.io/">Zhen Zheng</a></li>
-<li>2021: Microsoft Research Asia (MSRA), <em>Systems Research Group</em>, Research Intern, Mentor: <a href="https://www.microsoft.com/en-us/research/people/fanyang/">Dr. Fan Yang</a>, <a href="https://www.microsoft.com/en-us/research/people/jxue/">Dr. Jilong Xue</a></li>
-<li>2019 - 2020: North Carolina State University (NCSU), <em>PICTure Research Group</em>, Remote Intern, Advisor: <a href="https://research.csc.ncsu.edu/picture/xshen5/index.htm">Prof. Xipeng Shen</a></li>
-<li>2019: DELL EMC China Technology R&amp;D Center, Intern</li>
-</ul>
-
-<h1 id="news">News</h1>
-<ul>
-<li>Dec 2025: Presented a talk at the NeurIPS 2025 Tutorial on <a href="https://ml.energy/tutorials/neurips25/"><i>Energy and Power as First‑Class ML Design Metrics.</i></a></li>
-</ul>
-
-    
-        <h1 id="publications">Selected Publications</h1>
-    
-    
-        <div class="pub-wrapper w-full inline-flex flex-wrap items-center
-            my-1.5 p-2.5 rounded bg-slate-200 dark:bg-slate-700 box-border
-            leading-tight justify-around" id="where-do-the-joules-go-diagnosing-inference-energy-consumption"
-     itemscope itemtype="http://schema.org/ScholarlyArticle">
-    <!-- <div class="pub-image basis-40 grow-0 shrink" itemprop="image"
-
-         itemscope itemtype="http://schema.org/ImageObject">
-        <img alt="Where Do the Joules Go? Diagnosing Inference Energy Consumption paper illustration"
-             itemprop="url" src="img/joules.png"
-             class="w-full"/>
-    </div> -->
-    <div class="publication grow shrink-2 basis-3/4 my-1.5 mx-2">
-        <b>
-            <a href="https://arxiv.org/pdf/2601.22076">
-                <span itemprop="name">Where Do the Joules Go? Diagnosing Inference Energy Consumption</span>
-            </a>
-        </b>
-        <meta itemprop="headline" content="Where Do the Joules Go? Diagnosing Inference Energy Consumption"/>
-        <br>
-        
-            <span itemprop="author">Jae-Won Chung,</span>
-        
-        
-        <b>
-        
-            <span itemprop="author">Ruofan Wu,</span>
-        </b>
-        
-        
-        
-            <span itemprop="author">Jeff J. Ma,</span>
-        
-        
-            <span itemprop="author">Mosharaf Chowdhury</span>
-        
-        <br>
-        
-        <div>
-        In <span itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-            <i itemprop="name">Preprint</i></span>,
-        
-        <meta itemprop="datePublished" content="2026">2026.
-        </div><div class="pub-link-wrapper mt-3 text-sm"><span class="publication-link cursor-pointer
-                         bg-sky-600 dark:bg-sky-700
-                         hover:bg-sky-800
-                         dark:hover:bg-sky-500
-                         text-white
-                         dark:text-zinc-200
-                         dark:hover:text-gray-800
-                         hover:text-gray-900
-                         rounded-sm p-1 mr-1">
-                <button class="open-modal text-inherit"
-                        data-target="#open-modal-where-do-the-joules-go-diagnosing-inference-energy-consumption">Cite</button></span><span class="publication-link bg-sky-600
-                         dark:bg-sky-700 rounded-sm p-1
-                         dark:hover:bg-sky-500
-                         hover:bg-sky-800 mr-1"><a class="border-none
-                         text-white
-                         dark:text-zinc-200
-                         hover:text-gray-900
-                          hover:dark:text-gray-800"
-                   itemprop="mainEntityOfPage" href="https://arxiv.org/abs/2601.22076">Main URL</a></span></div>
-    </div>
-    </div>
-    
-    
-        <div class="pub-wrapper w-full inline-flex flex-wrap items-center
-            my-1.5 p-2.5 rounded bg-slate-200 dark:bg-slate-700 box-border
-            leading-tight justify-around" id="kareus-joint-reduction-of-dynamic-and-static-energy-in-large-model-training"
-     itemscope itemtype="http://schema.org/ScholarlyArticle">
-    <!-- <div class="pub-image basis-40 grow-0 shrink" itemprop="image"
-
-         itemscope itemtype="http://schema.org/ImageObject">
-        <img alt="Kareus: Joint Reduction of Dynamic and Static Energy in Large Model Training paper illustration"
-             itemprop="url" src="img/kareus.png"
-             class="w-full"/>
-    </div> -->
-    <div class="publication grow shrink-2 basis-3/4 my-1.5 mx-2">
-        <b>
-            <a href="https://arxiv.org/pdf/2601.17654">
-                <span itemprop="name">Kareus: Joint Reduction of Dynamic and Static Energy in Large Model Training</span>
-            </a>
-        </b>
-        <meta itemprop="headline" content="Kareus: Joint Reduction of Dynamic and Static Energy in Large Model Training"/>
-        <br>
-        
-        <b>
-        
-            <span itemprop="author">Ruofan Wu,</span>
-        </b>
-        
-        
-        
-            <span itemprop="author">Jae-Won Chung,</span>
-        
-        
-            <span itemprop="author">Mosharaf Chowdhury</span>
-        
-        <br>
-        
-        <div>
-        In <span itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-            <i itemprop="name">Preprint</i></span>,
-        
-        <meta itemprop="datePublished" content="2026">2026.
-        </div><div class="pub-link-wrapper mt-3 text-sm"><span class="publication-link cursor-pointer
-                         bg-sky-600 dark:bg-sky-700
-                         hover:bg-sky-800
-                         dark:hover:bg-sky-500
-                         text-white
-                         dark:text-zinc-200
-                         dark:hover:text-gray-800
-                         hover:text-gray-900
-                         rounded-sm p-1 mr-1">
-                <button class="open-modal text-inherit"
-                        data-target="#open-modal-kareus-joint-reduction-of-dynamic-and-static-energy-in-large-model-training">Cite</button></span><span class="publication-link bg-sky-600
-                         dark:bg-sky-700 rounded-sm p-1
-                         dark:hover:bg-sky-500
-                         hover:bg-sky-800 mr-1"><a class="border-none
-                         text-white
-                         dark:text-zinc-200
-                         hover:text-gray-900
-                          hover:dark:text-gray-800"
-                   itemprop="mainEntityOfPage" href="https://arxiv.org/abs/2601.17654">Main URL</a></span></div>
-    </div>
-    </div>
-    
-    
-        <div class="pub-wrapper w-full inline-flex flex-wrap items-center
-            my-1.5 p-2.5 rounded bg-slate-200 dark:bg-slate-700 box-border
-            leading-tight justify-around" id="the-ml-energy-benchmark-toward-automated-inference-energy-measurement-and-optimization"
-     itemscope itemtype="http://schema.org/ScholarlyArticle">
-    <!-- <div class="pub-image basis-40 grow-0 shrink" itemprop="image"
- 
-         itemscope itemtype="http://schema.org/ImageObject">
-        <img alt="The ML.ENERGY Benchmark: Toward Automated Inference Energy Measurement and Optimization paper illustration"
-             itemprop="url" src="img/mlenergy.png"
-             class="w-full"/>
-    </div> -->
-    <div class="publication grow shrink-2 basis-3/4 my-1.5 mx-2">
-        <b>
-            <a href="https://openreview.net/pdf?id=CXqq2v6qUv">
-                <span itemprop="name">The ML.ENERGY Benchmark: Toward Automated Inference Energy Measurement and Optimization</span>
-            </a>
-        </b>
-        <meta itemprop="headline" content="The ML.ENERGY Benchmark: Toward Automated Inference Energy Measurement and Optimization"/>
-        <br>
-        
-            <span itemprop="author">Jae-Won Chung,</span>
-        
-        
-            <span itemprop="author">Jeff J. Ma,</span>
-        
-        
-        <b>
-        
-            <span itemprop="author">Ruofan Wu,</span>
-        </b>
-        
-        
-        
-            <span itemprop="author">Jiachen Liu,</span>
-        
-        
-            <span itemprop="author">Oh Jun Kweon,</span>
-        
-        
-            <span itemprop="author">Yuxuan Xia,</span>
-        
-        
-            <span itemprop="author">Zhiyu Wu,</span>
-        
-        
-            <span itemprop="author">Mosharaf Chowdhury</span>
-        
-        <br>
-        
-        <div>
-        In <span itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-            <i itemprop="name">NeurIPS Datasets and Benchmarks (Spotlight)</i></span>,
-        
-        <meta itemprop="datePublished" content="2025">2025.
-        </div><div class="pub-link-wrapper mt-3 text-sm"><span class="publication-link cursor-pointer
-                         bg-sky-600 dark:bg-sky-700
-                         hover:bg-sky-800
-                         dark:hover:bg-sky-500
-                         text-white
-                         dark:text-zinc-200
-                         dark:hover:text-gray-800
-                         hover:text-gray-900
-                         rounded-sm p-1 mr-1">
-                <button class="open-modal text-inherit"
-                        data-target="#open-modal-the-ml-energy-benchmark-toward-automated-inference-energy-measurement-and-optimization">Cite</button></span><span class="publication-link bg-sky-600
-                         dark:bg-sky-700 rounded-sm p-1
-                         dark:hover:bg-sky-500
-                         hover:bg-sky-800 mr-1"><a class="border-none
-                         text-white
-                         dark:text-zinc-200
-                         hover:text-gray-900
-                          hover:dark:text-gray-800"
-                   itemprop="mainEntityOfPage" href="https://openreview.net/forum?id=CXqq2v6qUv">Main URL</a></span></div>
-    </div>
-    </div>
-    
-    
-        <div class="pub-wrapper w-full inline-flex flex-wrap items-center
-            my-1.5 p-2.5 rounded bg-slate-200 dark:bg-slate-700 box-border
-            leading-tight justify-around" id="tetriserve-efficient-dit-serving-for-heterogeneous-image-generation"
-     itemscope itemtype="http://schema.org/ScholarlyArticle">
-    <!-- <div class="pub-image basis-40 grow-0 shrink" itemprop="image"
- 
-         itemscope itemtype="http://schema.org/ImageObject">
-        <img alt="TetriServe: Efficient DiT Serving for Heterogeneous Image Generation paper illustration"
-             itemprop="url" src="img/tetriserve.png"
-             class="w-full"/>
-    </div> -->
-    <div class="publication grow shrink-2 basis-3/4 my-1.5 mx-2">
-        <b>
-            <a href="https://arxiv.org/pdf/2510.01565">
-                <span itemprop="name">TetriServe: Efficient DiT Serving for Heterogeneous Image Generation</span>
-            </a>
-        </b>
-        <meta itemprop="headline" content="TetriServe: Efficient DiT Serving for Heterogeneous Image Generation"/>
-        <br>
-        
-            <span itemprop="author">Runyu Lu*,</span>
-        
-        
-            <span itemprop="author">Shiqi He*,</span>
-        
-        
-            <span itemprop="author">Wenxuan Tan,</span>
-        
-        
-            <span itemprop="author">Shenggui Li,</span>
-        
-        
-        <b>
-        
-            <span itemprop="author">Ruofan Wu,</span>
-        </b>
-        
-        
-        
-            <span itemprop="author">Jeff J. Ma,</span>
-        
-        
-            <span itemprop="author">Ang Chen,</span>
-        
-        
-            <span itemprop="author">Mosharaf Chowdhury</span>
-        
-        <br>
-        
-        <div>
-        In <span itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-            <i itemprop="name">ASPLOS</i></span>,
-        
-        <meta itemprop="datePublished" content="2026">2026.
-        </div><div class="pub-link-wrapper mt-3 text-sm"><span class="publication-link cursor-pointer
-                         bg-sky-600 dark:bg-sky-700
-                         hover:bg-sky-800
-                         dark:hover:bg-sky-500
-                         text-white
-                         dark:text-zinc-200
-                         dark:hover:text-gray-800
-                         hover:text-gray-900
-                         rounded-sm p-1 mr-1">
-                <button class="open-modal text-inherit"
-                        data-target="#open-modal-tetriserve-efficient-dit-serving-for-heterogeneous-image-generation">Cite</button></span><span class="publication-link bg-sky-600
-                         dark:bg-sky-700 rounded-sm p-1
-                         dark:hover:bg-sky-500
-                         hover:bg-sky-800 mr-1"><a class="border-none
-                         text-white
-                         dark:text-zinc-200
-                         hover:text-gray-900
-                          hover:dark:text-gray-800"
-                   itemprop="mainEntityOfPage" href="https://arxiv.org/abs/2510.01565">Main URL</a></span></div>
-    </div>
-    </div>
-    
-    
-        <div class="pub-wrapper w-full inline-flex flex-wrap items-center
-            my-1.5 p-2.5 rounded bg-slate-200 dark:bg-slate-700 box-border
-            leading-tight justify-around" id="plus-highly-efficient-and-expandable-ml-compiler-with-pluggable-graph-schedules"
-     itemscope itemtype="http://schema.org/ScholarlyArticle">
-    <!-- <div class="pub-image basis-40 grow-0 shrink" itemprop="image"
-
-         itemscope itemtype="http://schema.org/ImageObject">
-        <img alt="PluS: Highly Efficient and Expandable ML Compiler with Pluggable Graph Schedules paper illustration"
-             itemprop="url" src="img/plus.png"
-             class="w-full"/>
-    </div> -->
-    <div class="publication grow shrink-2 basis-3/4 my-1.5 mx-2">
-        <b>
-            <a href="https://www.usenix.org/system/files/atc25-wu-ruofan.pdf">
-                <span itemprop="name">PluS: Highly Efficient and Expandable ML Compiler with Pluggable Graph Schedules</span>
-            </a>
-        </b>
-        <meta itemprop="headline" content="PluS: Highly Efficient and Expandable ML Compiler with Pluggable Graph Schedules"/>
-        <br>
-        
-        <b>
-        
-            <span itemprop="author">Ruofan Wu,</span>
-        </b>
-        
-        
-        
-            <span itemprop="author">Zhen Zheng,</span>
-        
-        
-            <span itemprop="author">Feng Zhang,</span>
-        
-        
-            <span itemprop="author">Chuanjie Liu,</span>
-        
-        
-            <span itemprop="author">Zaifeng Pan,</span>
-        
-        
-            <span itemprop="author">Jidong Zhai,</span>
-        
-        
-            <span itemprop="author">Xiaoyong Du</span>
-        
-        <br>
-        
-        <div>
-        In <span itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-            <i itemprop="name">USENIX ATC</i></span>,
-        
-        <meta itemprop="datePublished" content="2025">2025.
-        </div><div class="pub-link-wrapper mt-3 text-sm"><span class="publication-link cursor-pointer
-                         bg-sky-600 dark:bg-sky-700
-                         hover:bg-sky-800
-                         dark:hover:bg-sky-500
-                         text-white
-                         dark:text-zinc-200
-                         dark:hover:text-gray-800
-                         hover:text-gray-900
-                         rounded-sm p-1 mr-1">
-                <button class="open-modal text-inherit"
-                        data-target="#open-modal-plus-highly-efficient-and-expandable-ml-compiler-with-pluggable-graph-schedules">Cite</button></span><span class="publication-link bg-sky-600
-                         dark:bg-sky-700 rounded-sm p-1
-                         dark:hover:bg-sky-500
-                         hover:bg-sky-800 mr-1"><a class="border-none
-                         text-white
-                         dark:text-zinc-200
-                         hover:text-gray-900
-                          hover:dark:text-gray-800"
-                   itemprop="mainEntityOfPage" href="https://www.usenix.org/conference/atc25/presentation/wu-ruofan">Main URL</a></span></div>
-    </div>
-</div>
-
-    
-    <!--
-        <div class="pub-wrapper w-full inline-flex flex-wrap items-center
-            my-1.5 p-2.5 rounded bg-slate-200 dark:bg-slate-700 box-border
-            leading-tight justify-around" id="recom-a-compiler-approach-to-accelerating-recommendation-model-inference-with-massive-embedding-columns"
-     itemscope itemtype="http://schema.org/ScholarlyArticle">
-    <div class="pub-image basis-40 grow-0 shrink" itemprop="image"
-
-         itemscope itemtype="http://schema.org/ImageObject">
-        <img alt="RECom: A Compiler Approach to Accelerating Recommendation Model Inference with Massive Embedding Columns paper illustration"
-             itemprop="url" src="img/recom.png"
-             class="w-full"/>
-    </div>
-    <div class="publication grow shrink-2 basis-3/4 my-1.5 mx-2">
-        <b>
-            <a href="https://dl.acm.org/doi/pdf/10.1145/3623278.3624761">
-                <span itemprop="name">RECom: A Compiler Approach to Accelerating Recommendation Model Inference with Massive Embedding Columns</span>
-            </a>
-        </b>
-        <meta itemprop="headline" content="RECom: A Compiler Approach to Accelerating Recommendation Model Inference with Massive Embedding Columns"/>
-        <br>
-        
-            <span itemprop="author">Zaifeng Pan</span>,
-        
-        
-            <span itemprop="author">Zhen Zheng</span>,
-        
-        
-            <span itemprop="author">Feng Zhang,</span>
-        
-        
-        <b>
-        
-            <span itemprop="author">Ruofan Wu,</span>
-        </b>
-        
-        
-        
-            <span itemprop="author">Hao Liang,</span>
-        
-        
-            <span itemprop="author">Dalin Wang,</span>
-        
-        
-            <span itemprop="author">Xiafei Qiu,</span>
-        
-        
-            <span itemprop="author">Junjie Bai,</span>
-        
-        
-            <span itemprop="author">Wei Lin,</span>
-        
-        
-            <span itemprop="author">Xiaoyong Du</span>
-        
-        <br>
-        
-        <div>
-        In <span itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-            <i itemprop="name">ASPLOS</i></span>,
-        
-        <meta itemprop="datePublished" content="2024">2024.
-        </div><div class="pub-link-wrapper mt-3 text-sm"><span class="publication-link cursor-pointer
-                         bg-sky-600 dark:bg-sky-700
-                         hover:bg-sky-800
-                         dark:hover:bg-sky-500
-                         text-white
-                         dark:text-zinc-200
-                         dark:hover:text-gray-800
-                         hover:text-gray-900
-                         rounded-sm p-1 mr-1">
-                <button class="open-modal text-inherit"
-                        data-target="#open-modal-recom-a-compiler-approach-to-accelerating-recommendation-model-inference-with-massive-embedding-columns">Cite</button></span><span class="publication-link bg-sky-600
-                         dark:bg-sky-700 rounded-sm p-1
-                         dark:hover:bg-sky-500
-                         hover:bg-sky-800 mr-1"><a class="border-none
-                         text-white
-                         dark:text-zinc-200
-                         hover:text-gray-900
-                          hover:dark:text-gray-800"
-                   itemprop="mainEntityOfPage" href="https://dl.acm.org/doi/10.1145/3623278.3624761">Main URL</a></span></div>
-    </div>
-</div>
-    -->
-
-    
-        <div class="pub-wrapper w-full inline-flex flex-wrap items-center
-            my-1.5 p-2.5 rounded bg-slate-200 dark:bg-slate-700 box-border
-            leading-tight justify-around" id="roller-fast-and-efficient-tensor-compilation-for-deep-learning"
-     itemscope itemtype="http://schema.org/ScholarlyArticle">
-    <!-- <div class="pub-image basis-40 grow-0 shrink" itemprop="image"
-
-         itemscope itemtype="http://schema.org/ImageObject">
-        <img alt="ROLLER: Fast and Efficient Tensor Compilation for Deep Learning paper illustration"
-             itemprop="url" src="img/roller.png"
-             class="w-full"/>
-    </div> -->
-    <div class="publication grow shrink-2 basis-3/4 my-1.5 mx-2">
-        <b>
-            <a href="https://www.usenix.org/system/files/osdi22-zhu.pdf">
-                <span itemprop="name">ROLLER: Fast and Efficient Tensor Compilation for Deep Learning</span>
-            </a>
-        </b>
-        <meta itemprop="headline" content="ROLLER: Fast and Efficient Tensor Compilation for Deep Learning"/>
-        <br>
-        
-            <span itemprop="author">Hongyu Zhu</span>,
-        
-        
-        <b>
-        
-            <span itemprop="author">Ruofan Wu</span>,
-        </b>
-        
-        
-        
-            <span itemprop="author">Yijia Diao,</span>
-        
-        
-            <span itemprop="author">Shanbin Ke,</span>
-        
-        
-            <span itemprop="author">Haoyu Li,</span>
-        
-        
-            <span itemprop="author">Chen Zhang,</span>
-        
-        
-            <span itemprop="author">Jilong Xue,</span>
-        
-        
-            <span itemprop="author">Lingxiao Ma,</span>
-        
-        
-            <span itemprop="author">Yuqing Xia,</span>
-        
-        
-            <span itemprop="author">Wei Cui,</span>
-        
-        
-            <span itemprop="author">Fan Yang,</span>
-        
-        
-            <span itemprop="author">Mao Yang,</span>
-        
-        
-            <span itemprop="author">Lidong Zhou,</span>
-        
-        
-            <span itemprop="author">Asaf Cidon,</span>
-        
-        
-            <span itemprop="author">Gennady Pekhimenko</span>
-        
-        <br>
-        
-        <div>
-        In <span itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-            <i itemprop="name">OSDI</i></span>,
-        
-        <meta itemprop="datePublished" content="2022">2022.
-        </div><div class="pub-link-wrapper mt-3 text-sm"><span class="publication-link cursor-pointer
-                         bg-sky-600 dark:bg-sky-700
-                         hover:bg-sky-800
-                         dark:hover:bg-sky-500
-                         text-white
-                         dark:text-zinc-200
-                         dark:hover:text-gray-800
-                         hover:text-gray-900
-                         rounded-sm p-1 mr-1">
-                <button class="open-modal text-inherit"
-                        data-target="#open-modal-roller-fast-and-efficient-tensor-compilation-for-deep-learning">Cite</button></span><span class="publication-link bg-sky-600
-                         dark:bg-sky-700 rounded-sm p-1
-                         dark:hover:bg-sky-500
-                         hover:bg-sky-800 mr-1"><a class="border-none
-                         text-white
-                         dark:text-zinc-200
-                         hover:text-gray-900
-                          hover:dark:text-gray-800"
-                   itemprop="mainEntityOfPage" href="https://www.usenix.org/conference/osdi22/presentation/zhu">Main URL</a></span></div>
-    </div>
-</div>
-
-    
-        <div class="pub-wrapper w-full inline-flex flex-wrap items-center
-            my-1.5 p-2.5 rounded bg-slate-200 dark:bg-slate-700 box-border
-            leading-tight justify-around" id="drew-efficient-winograd-cnn-inference-with-deep-reuse"
-     itemscope itemtype="http://schema.org/ScholarlyArticle">
-    <!-- <div class="pub-image basis-40 grow-0 shrink" itemprop="image"
-
-         itemscope itemtype="http://schema.org/ImageObject">
-        <img alt="DREW: Efficient Winograd CNN Inference with Deep Reuse paper illustration"
-             itemprop="url" src="img/drew.png"
-             class="w-full"/>
-    </div> -->
-    <div class="publication grow shrink-2 basis-3/4 my-1.5 mx-2">
-        <b>
-            <a href="https://dl.acm.org/doi/pdf/10.1145/3485447.3511985">
-                <span itemprop="name">DREW: Efficient Winograd CNN Inference with Deep Reuse</span>
-            </a>
-        </b>
-        <meta itemprop="headline" content="DREW: Efficient Winograd CNN Inference with Deep Reuse"/>
-        <br>
-        
-        <b>
-        
-            <span itemprop="author">Ruofan Wu</span>,
-        </b>
-        
-        
-        
-            <span itemprop="author">Feng Zhang</span>,
-        
-        
-            <span itemprop="author">Jiawei Guan,</span>
-        
-        
-            <span itemprop="author">Zhen Zheng,</span>
-        
-        
-            <span itemprop="author">Xiaoyong Du,</span>
-        
-        
-            <span itemprop="author">Xipeng Shen</span>
-        
-        <br>
-        
-        <div>
-        In <span itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-            <i itemprop="name">WWW/TheWebConf</i></span>,
-        
-        <meta itemprop="datePublished" content="2022">2022.
-        </div><div class="pub-link-wrapper mt-3 text-sm"><span class="publication-link cursor-pointer
-                         bg-sky-600 dark:bg-sky-700
-                         hover:bg-sky-800
-                         dark:hover:bg-sky-500
-                         text-white
-                         dark:text-zinc-200
-                         dark:hover:text-gray-800
-                         hover:text-gray-900
-                         rounded-sm p-1 mr-1">
-                <button class="open-modal text-inherit"
-                        data-target="#open-modal-drew-efficient-winograd-cnn-inference-with-deep-reuse">Cite</button></span><span class="publication-link bg-sky-600
-                         dark:bg-sky-700 rounded-sm p-1
-                         dark:hover:bg-sky-500
-                         hover:bg-sky-800 mr-1"><a class="border-none
-                         text-white
-                         dark:text-zinc-200
-                         hover:text-gray-900
-                          hover:dark:text-gray-800"
-                   itemprop="mainEntityOfPage" href="https://dl.acm.org/doi/abs/10.1145/3485447.3511985">Main URL</a></span></div>
-    </div>
-</div>
-
-    
-    
-    
-<div id="#open-modal-kareus-joint-reduction-of-dynamic-and-static-energy-in-large-model-training"
-     class="modal-window bg-tp-black invisible fixed top-0 left-0
-            right-0 bottom-0 transition-all pointer-events-none z-50">
-    <div class="absolute top-1/2 left-1/2 p-8 bg-white
-                dark:bg-neutral-700
-
-                max-w-full
-                rounded-md max-w-4/5 -translate-x-1/2 -translate-y-1/2">
-        <button id="#close-modal-kareus-joint-reduction-of-dynamic-and-static-energy-in-large-model-training" title="Close" class="modal-close rounded-sm p-2">✕</button>
-        <h3>Cite <i>Kareus: Joint Reduction of Dynamic and Static Energy in Large Model Training</i></h3>
-        <button class="modal-copy-citation pr-2 pl-1 my-2 ml-2
-                       bg-sky-600 dark:bg-sky-700 rounded-sm
-                       text-white
-                       dark:text-zinc-200
-                       dark:hover:text-gray-800
-                       hover:text-gray-900
-                       hover:bg-sky-800
-                       disabled:bg-neutral-500
-                       hover:disabled:text-white
-                       dark:hover:disabled:text-zinc-200
-                       dark:disabled:bg-neutral-500
-                       dark:hover:bg-sky-500" id="#copy-kareus2026">Copy to clipboard</button>
-        <pre class="bg-slate-100 dark:bg-slate-800"><code id="kareus2026">@misc{kareus:arxiv26,
-    author          = {Ruofan Wu and Jae-Won Chung and Mosharaf Chowdhury},
-    title           = {{Kareus}: Joint Reduction of Dynamic and Static Energy in Large Model Training},
-    year            = {2026},
-    eprint          = {2601.17654},
-    archivePrefix   = {arXiv},
-    primaryClass    = {cs.LG},
-}</code></pre>
-    </div>
-</div>
-
-<div id="#open-modal-the-ml-energy-benchmark-toward-automated-inference-energy-measurement-and-optimization"
-     class="modal-window bg-tp-black invisible fixed top-0 left-0
-            right-0 bottom-0 transition-all pointer-events-none z-50">
-    <div class="absolute top-1/2 left-1/2 p-8 bg-white
-                dark:bg-neutral-700
- 
-                max-w-full
-                rounded-md max-w-4/5 -translate-x-1/2 -translate-y-1/2">
-        <button id="#close-modal-the-ml-energy-benchmark-toward-automated-inference-energy-measurement-and-optimization" title="Close" class="modal-close rounded-sm p-2">✕</button>
-        <h3>Cite <i>The ML.ENERGY Benchmark: Toward Automated Inference Energy Measurement and Optimization</i></h3>
-        <button class="modal-copy-citation pr-2 pl-1 my-2 ml-2
-                       bg-sky-600 dark:bg-sky-700 rounded-sm
-                       text-white
-                       dark:text-zinc-200
-                       dark:hover:text-gray-800
-                       hover:text-gray-900
-                       hover:bg-sky-800
-                       disabled:bg-neutral-500
-                       hover:disabled:text-white
-                       dark:hover:disabled:text-zinc-200
-                       dark:disabled:bg-neutral-500
-                       dark:hover:bg-sky-500" id="#copy-mlenergy2025">Copy to clipboard</button>
-        <pre class="bg-slate-100 dark:bg-slate-800"><code id="mlenergy2025">@inproceedings{mlenergy-benchmark:neuripsdb25,
-    title           = {The {ML.ENERGY} Benchmark: Toward Automated Inference Energy Measurement and Optimization},
-    author          = {Jae-Won Chung and Jeff J. Ma and Ruofan Wu and Jiachen Liu and Oh Jun Kweon and Yuxuan Xia and Zhiyu Wu and Mosharaf Chowdhury},
-    year            = {2025},
-    month           = {Dec},
-    booktitle       = {NeurIPS D\&B},
-}</code></pre>
-    </div>
-</div>
-
-<div id="#open-modal-where-do-the-joules-go-diagnosing-inference-energy-consumption"
-     class="modal-window bg-tp-black invisible fixed top-0 left-0
-            right-0 bottom-0 transition-all pointer-events-none z-50">
-    <div class="absolute top-1/2 left-1/2 p-8 bg-white
-                dark:bg-neutral-700
-
-                max-w-full
-                rounded-md max-w-4/5 -translate-x-1/2 -translate-y-1/2">
-        <button id="#close-modal-where-do-the-joules-go-diagnosing-inference-energy-consumption" title="Close" class="modal-close rounded-sm p-2">✕</button>
-        <h3>Cite <i>Where Do the Joules Go? Diagnosing Inference Energy Consumption</i></h3>
-        <button class="modal-copy-citation pr-2 pl-1 my-2 ml-2
-                       bg-sky-600 dark:bg-sky-700 rounded-sm
-                       text-white
-                       dark:text-zinc-200
-                       dark:hover:text-gray-800
-                       hover:text-gray-900
-                       hover:bg-sky-800
-                       disabled:bg-neutral-500
-                       hover:disabled:text-white
-                       dark:hover:disabled:text-zinc-200
-                       dark:disabled:bg-neutral-500
-                       dark:hover:bg-sky-500" id="#copy-joules2026">Copy to clipboard</button>
-        <pre class="bg-slate-100 dark:bg-slate-800"><code id="joules2026">@misc{joules:arxiv26,
-    author          = {Jae-Won Chung and Ruofan Wu and Jeff J. Ma and Mosharaf Chowdhury},
-    title           = {Where Do the Joules Go? Diagnosing Inference Energy Consumption},
-    year            = {2026},
-    eprint          = {2601.22076},
-    archivePrefix   = {arXiv},
-    primaryClass    = {cs.LG},
-}</code></pre>
-    </div>
-</div>
- 
-    
-    
-<div id="#open-modal-tetriserve-efficient-dit-serving-for-heterogeneous-image-generation"
-     class="modal-window bg-tp-black invisible fixed top-0 left-0
-            right-0 bottom-0 transition-all pointer-events-none z-50">
-    <div class="absolute top-1/2 left-1/2 p-8 bg-white
-                dark:bg-neutral-700
-
-                max-w-full
-                rounded-md max-w-4/5 -translate-x-1/2 -translate-y-1/2">
-        <button id="#close-modal-tetriserve-efficient-dit-serving-for-heterogeneous-image-generation" title="Close" class="modal-close rounded-sm p-2">✕</button>
-        <h3>Cite <i>TetriServe: Efficient DiT Serving for Heterogeneous Image Generation</i></h3>
-        <button class="modal-copy-citation pr-2 pl-1 my-2 ml-2
-                       bg-sky-600 dark:bg-sky-700 rounded-sm
-                       text-white
-                       dark:text-zinc-200
-                       dark:hover:text-gray-800
-                       hover:text-gray-900
-                       hover:bg-sky-800
-                       disabled:bg-neutral-500
-                       hover:disabled:text-white
-                       dark:hover:disabled:text-zinc-200
-                       dark:disabled:bg-neutral-500
-                       dark:hover:bg-sky-500" id="#copy-tetriserve2025">Copy to clipboard</button>
-        <pre class="bg-slate-100 dark:bg-slate-800"><code id="tetriserve2025">@inproceedings{tetriserve:asplos26,
-    author          = {Runyu Lu and Shiqi He and Wenxuan Tan and Shenggui Li and Ruofan Wu and Jeff J. Ma and Ang Chen and Mosharaf Chowdhury},
-    booktitle       = {ASPLOS},
-    title           = {{TetriServe}: Efficiently Serving Mixed {DiT} Workloads},
-    year            = {2026},
-    month           = {March},
-}</code></pre>
-    </div>
-</div>
- 
-    
-    
-<div id="#open-modal-plus-highly-efficient-and-expandable-ml-compiler-with-pluggable-graph-schedules"
-     class="modal-window bg-tp-black invisible fixed top-0 left-0
-            right-0 bottom-0 transition-all pointer-events-none z-50">
-    <div class="absolute top-1/2 left-1/2 p-8 bg-white
-                dark:bg-neutral-700
-
-                max-w-full
-                rounded-md max-w-4/5 -translate-x-1/2 -translate-y-1/2">
-        <button id="#close-modal-plus-highly-efficient-and-expandable-ml-compiler-with-pluggable-graph-schedules" title="Close" class="modal-close rounded-sm p-2">✕</button>
-        <h3>Cite <i>PluS: Highly Efficient and Expandable ML Compiler with Pluggable Graph Schedules</i></h3>
-        <button class="modal-copy-citation pr-2 pl-1 my-2 ml-2
-                       bg-sky-600 dark:bg-sky-700 rounded-sm
-                       text-white
-                       dark:text-zinc-200
-                       dark:hover:text-gray-800
-                       hover:text-gray-900
-                       hover:bg-sky-800
-                       disabled:bg-neutral-500
-                       hover:disabled:text-white
-                       dark:hover:disabled:text-zinc-200
-                       dark:disabled:bg-neutral-500
-                       dark:hover:bg-sky-500" id="#copy-plus2025">Copy to clipboard</button>
-        <pre class="bg-slate-100 dark:bg-slate-800"><code id="plus2025">@inproceedings{plus:atc25,
-    author          = {Ruofan Wu and Zhen Zheng and Feng Zhang and Chuanjie Liu and Zaifeng Pan and Jidong Zhai and Xiaoyong Du},
-    booktitle       = {USENIX ATC},
-    title           = {{PluS}: Highly Efficient and Expandable {ML} Compiler with Pluggable Graph Schedules},
-    year            = {2025},
-    month           = {July},
-}</code></pre>
-    </div>
-</div>
-
-<div id="#open-modal-roller-fast-and-efficient-tensor-compilation-for-deep-learning"
-     class="modal-window bg-tp-black invisible fixed top-0 left-0
-            right-0 bottom-0 transition-all pointer-events-none z-50">
-    <div class="absolute top-1/2 left-1/2 p-8 bg-white
-                dark:bg-neutral-700
-
-                max-w-full
-                rounded-md max-w-4/5 -translate-x-1/2 -translate-y-1/2">
-        <button id="#close-modal-roller-fast-and-efficient-tensor-compilation-for-deep-learning" title="Close" class="modal-close rounded-sm p-2">✕</button>
-        <h3>Cite <i>ROLLER: Fast and Efficient Tensor Compilation for Deep Learning</i></h3>
-        <button class="modal-copy-citation pr-2 pl-1 my-2 ml-2
-                       bg-sky-600 dark:bg-sky-700 rounded-sm
-                       text-white
-                       dark:text-zinc-200
-                       dark:hover:text-gray-800
-                       hover:text-gray-900
-                       hover:bg-sky-800
-                       disabled:bg-neutral-500
-                       hover:disabled:text-white
-                       dark:hover:disabled:text-zinc-200
-                       dark:disabled:bg-neutral-500
-                       dark:hover:bg-sky-500" id="#copy-roller2022">Copy to clipboard</button>
-        <pre class="bg-slate-100 dark:bg-slate-800"><code id="roller2022">@inproceedings{roller:osdi22,
-    author          = {Hongyu Zhu and Ruofan Wu and Yijia Diao and Shanbin Ke and Haoyu Li and Chen Zhang and Jilong Xue and Lingxiao Ma and Yuqing Xia and Wei Cui and Fan Yang and Mao Yang and Lidong Zhou and Asaf Cidon and Gennady Pekhimenko},
-    booktitle       = {OSDI},
-    title           = {{ROLLER}: Fast and Efficient Tensor Compilation for Deep Learning},
-    year            = {2022},
-    month           = {July},
-}</code></pre>
-    </div>
-</div>
-
-<div id="#open-modal-drew-efficient-winograd-cnn-inference-with-deep-reuse"
-     class="modal-window bg-tp-black invisible fixed top-0 left-0
-            right-0 bottom-0 transition-all pointer-events-none z-50">
-    <div class="absolute top-1/2 left-1/2 p-8 bg-white
-                dark:bg-neutral-700
-
-                max-w-full
-                rounded-md max-w-4/5 -translate-x-1/2 -translate-y-1/2">
-        <button id="#close-modal-drew-efficient-winograd-cnn-inference-with-deep-reuse" title="Close" class="modal-close rounded-sm p-2">✕</button>
-        <h3>Cite <i>DREW: Efficient Winograd CNN Inference with Deep Reuse</i></h3>
-        <button class="modal-copy-citation pr-2 pl-1 my-2 ml-2
-                       bg-sky-600 dark:bg-sky-700 rounded-sm
-                       text-white
-                       dark:text-zinc-200
-                       dark:hover:text-gray-800
-                       hover:text-gray-900
-                       hover:bg-sky-800
-                       disabled:bg-neutral-500
-                       hover:disabled:text-white
-                       dark:hover:disabled:text-zinc-200
-                       dark:disabled:bg-neutral-500
-                       dark:hover:bg-sky-500" id="#copy-drew2022">Copy to clipboard</button>
-        <pre class="bg-slate-100 dark:bg-slate-800"><code id="drew2022">@inproceedings{drew:www22,
-    author          = {Ruofan Wu and Feng Zhang and Jiawei Guan and Zhen Zheng and Xiaoyong Du and Xipeng Shen},
-    booktitle       = {WWW},
-    title           = {{DREW}: Efficient Winograd {CNN} Inference with Deep Reuse},
-    year            = {2022},
-    month           = {April},
-}</code></pre>
-    </div>
-</div>
-
-    
-
-    </main>
-    <footer class="footer container h-10 text-center mt-1">
-<hr class="my-4">
-  <ul class="pl-0 mt-1">
-    
-    <li class="ml-2 first:before:content-none before:content-['•']
-               inline-block list-none">
-      <a class="ml-2 text-neutral-800
-                dark:text-neutral-400 border-none"
-          href="https://github.com/hugcis/hugo-astatine-theme">Code</a>
-    </li>
-    <li class="ml-2 first:before:content-none before:content-['•']
-                text-neutral-800 dark:text-neutral-400 inline-block list-none">
-      <span class="ml-2">© Ruofan Wu</span>
-    </li>
-  </ul>
-</footer>
-
-<script>
- 
- function toggleModal(win) {
-     return ((event) => {
-         if (event.target.id.startsWith("#open-modal") || 
-             event.target.id.startsWith("#close-modal") || 
-             event.target.classList.contains("open-modal")) {
-             event.stopPropagation();
-             win.classList.toggle("invisible");
-             win.classList.toggle("pointer-events-auto");
-             document.body.classList.toggle("pointer-events-none");
-         }
-     });
- }
- var list = document.getElementsByClassName("open-modal");
- for (let item of list) {
-     var id = item.attributes["data-target"].textContent;
-	 var modWin = document.getElementById(id);
-     var closeButton = document.getElementById(id.replace("open", "close"));
-
-	 item.addEventListener('click', toggleModal(modWin));
-     closeButton.addEventListener('click', toggleModal(modWin));
-     modWin.addEventListener('click', toggleModal(modWin));
- }
- var clipboardCopyButtons = document.getElementsByClassName("modal-copy-citation");
- for (let button of clipboardCopyButtons) {
-     let citation_id = button.id.replace("#copy-", "");
-     let citation_text = document.getElementById(citation_id);
-     button.addEventListener('click', function (clicked) {
-        return function () {
-            if (!clicked) {
-                var last = this.innerHTML;
-                navigator.clipboard
-                         .writeText(citation_text.innerHTML)
-                         .then(() => {
-                             this.innerHTML = "Copied!";
-                             this.disabled = true;
-                         },
-                               () => {this.innerHTML = "Error copying!";});
-                clicked = true;
-                setTimeout(function () {
-                    this.innerHTML = last;
-                    this.disabled = false;
-                    clicked = false;
-                }.bind(this), 1000);
-            }
-        };
-     }(false), this);
- }
-</script>
-
-
-  </body>
+  <button class="back-to-top" type="button" aria-label="Back to top">↑</button>
+  <script src="/js/publications.js"></script>
+  <script src="/js/academic-site.js"></script>
+</body>
 </html>
