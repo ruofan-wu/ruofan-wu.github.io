@@ -74,9 +74,20 @@
       paper.href = publication.url;
       paper.target = '_blank';
       paper.rel = 'noopener noreferrer';
-      paper.textContent = publication.preprint ? 'Preprint' : 'Paper';
+      paper.textContent = 'Paper';
       paper.setAttribute('aria-label', paper.textContent + ': ' + publication.title);
       meta.appendChild(paper);
+    }
+
+    if (publication.code) {
+      var code = document.createElement('a');
+      code.className = 'paper-link';
+      code.href = publication.code;
+      code.target = '_blank';
+      code.rel = 'noopener noreferrer';
+      code.textContent = 'Code';
+      code.setAttribute('aria-label', 'Code: ' + publication.title);
+      meta.appendChild(code);
     }
 
     content.appendChild(title);

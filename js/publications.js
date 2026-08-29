@@ -26,8 +26,9 @@
       year: 2026,
       title: 'Kareus: joint reduction of dynamic and static energy in large model training',
       authors: '<strong>Ruofan Wu</strong>, Jae-Won Chung, Mosharaf Chowdhury',
-      venue: "OSDI '26",
+      venue: 'OSDI 2026',
       url: 'https://www.usenix.org/conference/osdi26/presentation/wu-ruofan',
+      code: 'https://github.com/ml-energy/kareus',
       selected: true,
       new: true
     },
@@ -45,6 +46,7 @@
       authors: 'Jae-Won Chung, Jeff J. Ma, <strong>Ruofan Wu</strong>, Jiachen Liu, Oh Jun Kweon, Yuxuan Xia, Zhiyu Wu, Mosharaf Chowdhury',
       venue: 'NeurIPS 2025, Datasets and Benchmarks (Spotlight)',
       url: 'https://openreview.net/forum?id=CXqq2v6qUv',
+      code: 'https://github.com/ml-energy/benchmark',
       selected: true
     },
     {
@@ -59,7 +61,8 @@
       year: 2024,
       title: 'RecFlex: enabling feature heterogeneity-aware optimization for deep recommendation models with flexible schedules',
       authors: 'Zaifeng Pan, Zhen Zheng, Feng Zhang, Bing Xie, <strong>Ruofan Wu</strong>, Shaden Smith, Chuanjie Liu, Olatunji Ruwase, Xiaoyong Du, Yufei Ding',
-      venue: 'SC 2024'
+      venue: 'SC 2024',
+      url: 'https://dl.acm.org/doi/10.1109/SC41406.2024.00047'
     },
     {
       year: 2024,
@@ -72,7 +75,8 @@
       year: 2023,
       title: 'Expanding the edge: enabling efficient Winograd CNN inference with deep reuse on edge device',
       authors: 'Feng Zhang, <strong>Ruofan Wu</strong>, Jiawei Guan, Zhen Zheng, Xiaoguang Guo, Xiao Zhang, Xiaoyong Du, Xipeng Shen',
-      venue: 'IEEE TKDE 2023'
+      venue: 'IEEE TKDE 2023',
+      url: 'https://ieeexplore.ieee.org/abstract/document/10106424'
     },
     {
       year: 2022,
@@ -80,6 +84,7 @@
       authors: 'Hongyu Zhu, <strong>Ruofan Wu</strong>, Yijia Diao, Shanbin Ke, Haoyu Li, Chen Zhang, Jilong Xue, Lingxiao Ma, Yuqing Xia, Wei Cui, Fan Yang, Mao Yang, Lidong Zhou, Asaf Cidon, Gennady Pekhimenko',
       venue: 'OSDI 2022',
       url: 'https://www.usenix.org/conference/osdi22/presentation/zhu',
+      code: 'https://github.com/microsoft/nnfusion',
       selected: true
     },
     {
@@ -99,7 +104,8 @@
       year: 2021,
       title: 'YuenyeungSpTRSV: a thread-level and warp-level fusion synchronization-free sparse triangular solve',
       authors: 'Jiya Su, Feng Zhang, Weifeng Liu, Bingsheng He, <strong>Ruofan Wu</strong>, Xiaoyong Du, Rujia Wang',
-      venue: 'IEEE TPDS 2021'
+      venue: 'IEEE TPDS 2021',
+      url: 'https://ieeexplore.ieee.org/abstract/document/9380961'
     },
     {
       year: 2020,
